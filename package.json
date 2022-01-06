@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/ottoszika/node-red-contrib-ewelink.git"
+    "url": "git+ssh://git@github.com/baugp/node-red-contrib-ewelink.git"
   },
   "keywords": [
     "node-red",
@@ -21,9 +21,9 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ottoszika/node-red-contrib-ewelink/issues"
+    "url": "https://github.com/baugp/node-red-contrib-ewelink/issues"
   },
-  "homepage": "https://github.com/ottoszika/node-red-contrib-ewelink#readme",
+  "homepage": "https://github.com/baugp/node-red-contrib-ewelink#readme",
   "node-red": {
     "nodes": {
       "ewelink-credentials": "src/credentials/credentials.js",
@@ -41,7 +41,7 @@
     }
   },
   "dependencies": {
-    "ewelink-api": "^3.1.1"
+    "ewelink-api": "https://github.com/baugp/ewelink-api.git"
   },
   "devDependencies": {
     "chai": "^4.2.0",
